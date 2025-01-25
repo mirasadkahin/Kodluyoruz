@@ -1,9 +1,13 @@
+body{
+  overflow: auto;
+}
 ::placeholder{
   text-align: center;
   font-size: 14px;
   color: gray;
   background-position: 40%;
   background-size: 6%;
+  background: url(../assets/search-solid.svg) no-repeat;
 }
 
 input.empty {
@@ -44,3 +48,45 @@ input.empty {
   text-decoration: none;
   color: lightgrey;
 }
+
+
+.navbar{
+  background-color: white;
+  height: 54px;
+}
+
+.middlearea{
+  margin-top: 52px;
+  max-height:1200px !important ;
+}
+.logo{
+  margin-left: 500px;
+}
+
+.storyphoto {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+
+.card-header{
+  background-color:white;
+}
+
+.card-footer{
+  background-color: white;
+}
+#sticky-sidebar {
+  position: fixed;
+  border-width: 0px;
+}
+
